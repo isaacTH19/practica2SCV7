@@ -19,8 +19,7 @@ while True:
 
     opcion = input("\n¿Deseas convertir otro número? (s/n): ").lower()
 
-    if opcion != "s":
+    if opcion == "n":
         print("\nGracias por usar el convertidor  ¡Hasta pronto! ")
-        break  
-
-#Probar el codigo en el modulo test antes de subirlo  
+        break
+  
